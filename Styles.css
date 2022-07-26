@@ -229,7 +229,33 @@ nav a:hover {
   padding: 100px;
 }
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:400px) {
+  .first-block,
+  .second-block,
+  .aboutme,
+  .experience,
+  .intro {
+    flex-direction: column;
+    align-items:center;
+  }
+  .college {
+    justify-content:center;
+    margin-right:0px;
+  }
+  .boxes {
+    margin-top: 30px;
+    margin-bottom:30px;
+  }
+  .annuario {
+    width:600px;
+    height:500px;
+  }
+  .presentation {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width:401px) and (max-width:960px) {
   .first-block,
   .second-block,
   .aboutme,
