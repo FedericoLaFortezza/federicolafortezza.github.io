@@ -1,5 +1,3 @@
-
-
 p {
   text-align:center;
 }
@@ -18,13 +16,20 @@ nav a:hover {
   z-index:100;
 }
 
+.title1 {
+  color:white;
+  background-color: #6495ED;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-right:60px;
+}
+
 .titles {
   color:white;
   background-color: #6495ED;
   border-radius: 10px;
   margin-left: 60px;
   margin-right:60px;
-
 }
 
 .intro {
@@ -229,6 +234,32 @@ nav a:hover {
   padding: 100px;
 }
 
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+}
+
 @media only screen and (max-width:400px) {
   .first-block,
   .second-block,
@@ -237,6 +268,13 @@ nav a:hover {
   .intro {
     flex-direction: column;
     align-items:center;
+  }
+  .experience,
+  .knowledge,
+  .aboutme,
+  .blocks {
+    margin-right:20px;
+    margin-left:20px;
   }
   .college {
     justify-content:center;
@@ -272,11 +310,19 @@ nav a:hover {
     margin-top: 30px;
     margin-bottom:30px;
   }
-  .annuario {
+  .college-photo {
     width:600px;
     height:500px;
   }
   .presentation {
     margin-top: 30px;
   }
+  .photo1 {
+    margin-bottom:400px;
+  }
+  .title1 {
+    margin-top:250px;
+  }
 }
+
+
